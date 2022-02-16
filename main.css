@@ -1,0 +1,28 @@
+/*
+    * Which rule will have precedence in applying to the element?
+    * ***Specificty***: Google search for this word if you ever wanted to know.
+    * [ids] > [class names] > [tag names]
+    * BUT you can also list nested tag names and IDs, and tag names with IDs, and, and, and... many combinations. The more information that you give in a selector, the more likely it is to have precedence.
+    */
+p#second-paragraph {
+    color: blue;
+}
+
+/* Rule starts with 'selector' */
+p {
+    /*
+        * List of properties. Each property is of the form:
+        * property-name, ":", property value, ";"
+        */
+    /* font-family: "Times"; */
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    /* font-family: "Roboto"; */
+    font-weight: bold;
+    background-color: lightgreen;
+    color: brown;
+    line-height: 1.7em;
+}
+
+body {
+    background-color: crimson;
+}

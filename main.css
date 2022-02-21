@@ -26,3 +26,14 @@ p {
 body {
     background-color: crimson;
 }
+
+.CodeMirror {
+    border: 1px solid #eee;
+    width: 300px;
+    height: 100px;
+}
+
+div#code-editor-handle {
+    height: 20px;
+    background-color: black;
+}

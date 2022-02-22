@@ -27,9 +27,14 @@ body {
     background-color: crimson;
 }
 
+#code-editor-container {
+    width: 300px;
+    position: absolute;
+}
+
 .CodeMirror {
     border: 1px solid #eee;
-    width: 300px;
+    /* width: 300px; */
     height: 100px;
 }
 
